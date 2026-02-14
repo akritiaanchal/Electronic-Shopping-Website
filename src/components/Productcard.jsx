@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import {ShoppingCart} from 'lucide-react'
 import {useCart} from '../context/CartContext'
 
-const Productcard = ({product}) => {
+const ProductCard = ({product}) => {
   const {addToCart} = useCart();
   return (
     <>
@@ -40,4 +40,4 @@ const Productcard = ({product}) => {
   )
 }
 
-export default Productcard
+export default ProductCard
